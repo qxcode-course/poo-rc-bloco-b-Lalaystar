@@ -8,3 +8,9 @@
 2025-10-14 10:15:39, MOVE, v:1, k:poo@motouber, mode:DOWN
 2025-10-14 10:15:41, MOVE, v:1, k:poo@tamagotchi, mode:DOWN
 2025-10-14 10:15:43, MOVE, v:1, k:poo@charger, mode:DOWN
+2025-10-14 11:21:33, MOVE, v:1, k:poo@motouber, mode:PICK
+2025-10-14 11:21:36, EXEC, v:1, k:poo@motouber, mode:FULL, rate:0, size:0
+2025-10-14 11:21:38, MOVE, v:1, k:poo@motouber, mode:BACK
+2025-10-14 11:21:42, MOVE, v:1, k:poo@notebook, mode:PICK
+2025-10-14 11:22:35, EXEC, v:1, k:poo@notebook, mode:LOCK, rate:100, size:0
+2025-10-14 11:22:37, MOVE, v:1, k:poo@notebook, mode:BACK
