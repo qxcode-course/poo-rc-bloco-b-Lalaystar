@@ -1,0 +1,29 @@
+2025-10-25 15:54:23, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-25 15:54:51, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:25
+2025-10-25 16:10:28, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:24
+2025-10-25 16:12:27, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:26
+2025-10-25 16:13:02, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-25 16:13:34, SELF, v:1, k:poo@roupa
+2025-10-25 16:14:30, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-25 16:14:39, EXEC, v:1, k:poo@roupa, mode:FULL, rate:100, size:39
+2025-10-25 16:14:53, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-25 16:16:20, SELF, v:1, k:poo@roupa, rate:100, human:amigos_comparando_codigo, alone:4, study:90
+2025-10-25 16:16:45, SELF, v:1, k:poo@roupa, rate:100, human:amigos_comparando_codigo, alone:4, study:90
+2025-10-25 16:17:10, SELF, v:1, k:poo@roupa, rate:100, human:amigos_comparando_codigo, alone:4, study:120
+2025-10-25 16:17:34, SELF, v:1, k:poo@roupa, rate:100, human:amigos_comparando_codigo, alone:7, study:120
+2025-10-25 16:18:03, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-25 16:18:06, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:26
+2025-10-25 16:19:52, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-25 16:20:44, SELF, v:1, k:poo@camisa, rate:100, human:amigos_comparando_cidigo, alone:7, study:120
+2025-10-25 16:20:56, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-25 16:21:01, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:0, size:39
+2025-10-25 16:21:06, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-25 16:21:12, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-25 16:35:55, EXEC, v:1, k:poo@chinela, mode:FREE, size:42
+2025-10-25 16:36:30, EXEC, v:1, k:poo@chinela, mode:FREE, size:41
+2025-10-25 16:37:55, EXEC, v:1, k:poo@chinela, mode:FREE, size:41
+2025-10-25 16:38:22, EXEC, v:1, k:poo@chinela, mode:FREE
+2025-10-25 16:39:24, EXEC, v:1, k:poo@chinela, mode:FREE, size:41
+2025-10-25 16:40:54, EXEC, v:1, k:poo@chinela, mode:FREE, size:37
+2025-10-25 16:45:41, EXEC, v:1, k:poo@chinela, mode:FREE, size:36
+2025-10-25 16:48:27, MOVE, v:1, k:poo@chinela, mode:BACK

@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2025-10-15_10-26-56",
-            "content": "",
+            "content": "@@ -1,889 +0,0 @@\n-class Camisa:%0A    def _init_(self):%0A        self.__tamanho: str= %22%22%0A%0A    def getTamanho(self) -%3E str:%0A        return self.__tamanho%0A    %0A    def setTamanho(self,valor:str):%0A        tamv=%5B%22PP%22, %22P%22, %22M%22, %22G%22, %22GG%22, %22XG%22%5D%0A        if valor in tamv:%0A            self.__tamanho=valor%0A        else:%0A            print(%22tamanho errado%22)%0A    %0A    def __str__(self):%0A        if self.__tamanho == %22%22:%0A            return %22size: ()%22%0A        else:%0A%0A            return f%22size: (%7Bself.__tamanho%7D)%22%0A%0A%0Adef main():%0A    camisa=Camisa()%0A    while camisa.getTamanho()==%22%22:%0A       while True:%0A        line = input()%0A        print(%22$%22 + line)%0A        args = line.split()%0A%0A        if args%5B0%5D == %22end%22:%0A            break%0A        elif args%5B0%5D == %22show%22:%0A            print(camisa)%0A        elif args%5B0%5D == %22size%22:%0A            camisa.setTamanho(args%5B1%5D)%0A        else:%0A            print(%22fail: comando invalido%22)%0Amain()%0A\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-10-25_16-21-01",
+            "content": "class Camisa:\n    def _init_(self):\n        self.__tamanho: str= \"\"\n\n    def getTamanho(self) -> str:\n        return self.__tamanho\n    \n    def setTamanho(self,valor:str):\n        tamv=[\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n        if valor in tamv:\n            self.__tamanho=valor\n        else:\n            print(\"tamanho errado\")\n    \n    def __str__(self):\n        if self.__tamanho == \"\":\n            return \"size: ()\"\n        else:\n\n            return f\"size: ({self.__tamanho})\"\n\n\ndef main():\n    camisa=Camisa()\n    while camisa.getTamanho()==\"\":\n       while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split()\n\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"show\":\n            print(camisa)\n        elif args[0] == \"size\":\n            camisa.setTamanho(args[1])\n        else:\n            print(\"fail: comando invalido\")\nmain()\n",
+            "lines": "39"
         }
     ]
 }

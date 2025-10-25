@@ -15,3 +15,24 @@
 2025-10-15 10:55:25, MOVE, v:1, k:poo@chinela, mode:PICK
 2025-10-15 11:01:33, EXEC, v:1, k:poo@chinela, mode:FREE, size:21
 2025-10-15 11:02:44, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-15 12:06:11, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-15 12:10:07, EXEC, v:1, k:poo@chinela, mode:FREE, size:21
+2025-10-15 12:10:26, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-15 12:10:29, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-15 12:10:51, EXEC, v:1, k:poo@chinela, mode:FREE, size:21
+2025-10-15 12:26:10, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-15 12:26:17, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-15 12:35:06, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:16
+2025-10-15 12:40:26, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-15 12:40:27, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:23
+2025-10-15 12:45:23, MOVE, v:1, k:poo@roupa, mode:BACK
+2025-10-15 12:45:27, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-15 12:45:37, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0, size:25
+2025-10-15 12:46:10, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:0
+2025-10-15 12:46:13, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-15 12:46:17, MOVE, v:1, k:poo@roupa, mode:PICK
+2025-10-15 12:49:43, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:25
+2025-10-15 12:50:23, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:25
+2025-10-15 13:18:41, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:25
+2025-10-15 13:21:57, EXEC, v:1, k:poo@roupa, mode:FULL, rate:0, size:25
+2025-10-15 13:29:33, MOVE, v:1, k:poo@roupa, mode:BACK
