@@ -52,8 +52,53 @@
         },
         {
             "label": "2025-10-25_18-49-48",
-            "content": "class Relogio:\n    def __init__(self, hora:int=0,minuto:int=0,segundo:int=0):\n        self.__hora= 0\n        self.__minuto=0\n        self.__segundo=0\n        self.setHora(hora)\n        self.setMinuto(minuto)\n        self.setSegundo(segundo)\n\n    def getHora(self):\n        return self.__hora\n    def getMinuto(self):\n        return self.__minuto\n    def getSegundo(self):\n        return self.__segundo\n    \n    def setHora(self, hora: int):\n        if 0<=hora<=23:\n            self.__hora=hora\n        else:\n            print(\"fail: hora invalida\")\n\n    def setMinuto(self,minuto:int):\n        if 0<=minuto<=59:\n            self.__minuto=minuto\n        else:\n            print(\"fail: minuto invalida\")\n    \n    def setSegundo(self, segundo:int):\n        if 0<=segundo<=59:\n            self.__segundo=segundo\n        else:\n            print(\"fail: segundo invalido\")\n\n    def nextSecond(self):\n        self.__segundo+=1\n        if self.__segundo==60:\n            self.__segundo=0\n            self.__minuto+=1\n        if self.__minuto==60:\n            self.__minuto=0\n            self.__hora+=1\n        if self.__hora==0:\n            self.__hora=0\n\n    def __str__(self)->str:\n        return f\"{self.__hora:02d}:{self.__minuto:02d}:{self.__segundo:02d}\"\n\ndef main():\n    relogio=Relogio(00,00,00)\n    while True:\n        line=input()\n        print(\"$\"+line)\n        args=line.split()\n        \n        if args[0]==\"end\":\n            break\n        if args[0]==\"show\":\n            print(relogio)\n\nmain()",
+            "content": "@@ -1488,67 +1488,8 @@\n io)%0A\n-        if args%5B0%5D==%22set%22:%0A            relogio.nextSecond()\n %0Amai\n",
             "lines": "61"
+        },
+        {
+            "label": "2025-10-26_14-36-36",
+            "content": "@@ -1535,28 +1535,19 @@\n gio.\n-setHora(int(args%5B1%5D)\n+nextSecond(\n )%0Ama\n",
+            "lines": "62"
+        },
+        {
+            "label": "2025-10-26_14-38-18",
+            "content": "@@ -1557,97 +1557,8 @@\n %5D))%0A\n-            relogio.setMinuto(int(args%5B2%5D))%0A            relogio.setSegundo(int(args%5B3%5D))%0A\n main\n",
+            "lines": "62"
+        },
+        {
+            "label": "2025-10-26_14-39-10",
+            "content": "@@ -691,17 +691,17 @@\n  invalid\n-o\n+a\n %22)%0A    %0A\n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-26_14-39-48",
+            "content": "@@ -1646,105 +1646,8 @@\n %5D))%0A\n-        if args%5B0%5D==%22init%22:%0A            relogio=Relogio(int(args%5B1%5D), int(args%5B2%5D),int(args%5B3%5D))%0A\n main\n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-26_14-44-35",
+            "content": "@@ -1743,110 +1743,8 @@\n %5D))%0A\n-        if args%5B0%5D==%22next%22:%0A            relogio.nextSecond()%0A        else:%0A            print(%22errou%22)%0A\n main\n",
+            "lines": "66"
+        },
+        {
+            "label": "2025-10-26_14-48-25",
+            "content": "@@ -1837,24 +1837,13 @@\n nt(%22\n-Comando invalido\n+errou\n %22)%0Am\n",
+            "lines": "70"
+        },
+        {
+            "label": "2025-10-26_14-49-42",
+            "content": "@@ -1429,34 +1429,32 @@\n   break%0A        \n-el\n if args%5B0%5D==%22sho\n@@ -1457,16 +1457,16 @@\n %22show%22:%0A\n+\n         \n@@ -1484,34 +1484,32 @@\n elogio)%0A        \n-el\n if args%5B0%5D==%22set\n@@ -1642,34 +1642,32 @@\n gs%5B3%5D))%0A        \n-el\n if args%5B0%5D==%22ini\n@@ -1739,24 +1739,24 @@\n gs%5B3%5D))%0A\n+\n         \n elif arg\n@@ -1747,18 +1747,16 @@\n         \n-el\n if args%5B\n",
+            "lines": "70"
+        },
+        {
+            "label": "2025-10-26_14-50-13",
+            "content": "@@ -1114,10 +1114,9 @@\n ra==\n-24\n+0\n :%0A  \n",
+            "lines": "70"
+        },
+        {
+            "label": "2025-10-26_14-51-48",
+            "content": "class Relogio:\n    def __init__(self, hora:int=0,minuto:int=0,segundo:int=0):\n        self.__hora= 0\n        self.__minuto=0\n        self.__segundo=0\n        self.setHora(hora)\n        self.setMinuto(minuto)\n        self.setSegundo(segundo)\n\n    def getHora(self):\n        return self.__hora\n    def getMinuto(self):\n        return self.__minuto\n    def getSegundo(self):\n        return self.__segundo\n    \n    def setHora(self, hora: int):\n        if 0<=hora<=23:\n            self.__hora=hora\n        else:\n            print(\"fail: hora invalida\")\n\n    def setMinuto(self,minuto:int):\n        if 0<=minuto<=59:\n            self.__minuto=minuto\n        else:\n            print(\"fail: minuto invalido\")\n    \n    def setSegundo(self, segundo:int):\n        if 0<=segundo<=59:\n            self.__segundo=segundo\n        else:\n            print(\"fail: segundo invalido\")\n\n    def nextSecond(self):\n        self.__segundo+=1\n        if self.__segundo==60:\n            self.__segundo=0\n            self.__minuto+=1\n        if self.__minuto==60:\n            self.__minuto=0\n            self.__hora+=1\n        if self.__hora==24:\n            self.__hora=0\n\n    def __str__(self)->str:\n        return f\"{self.__hora:02d}:{self.__minuto:02d}:{self.__segundo:02d}\"\n\ndef main():\n    relogio=Relogio(00,00,00)\n    while True:\n        line=input()\n        print(\"$\"+line)\n        args=line.split()\n        \n        if args[0]==\"end\":\n            break\n        elif args[0]==\"show\":\n            print(relogio)\n        elif args[0]==\"set\":\n            relogio.setHora(int(args[1]))\n            relogio.setMinuto(int(args[2]))\n            relogio.setSegundo(int(args[3]))\n        elif args[0]==\"init\":\n            relogio=Relogio(int(args[1]), int(args[2]),int(args[3]))\n        elif args[0]==\"next\":\n            relogio.nextSecond()\n        else:\n            print(\"Comando invalido\")\nmain()",
+            "lines": "70"
         }
     ]
 }

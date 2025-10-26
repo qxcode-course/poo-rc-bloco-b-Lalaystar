@@ -8,7 +8,7 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: C:\Users\layan\OneDrive\Desktop\poo-rc-bloco-b-Lalaystar\myrep\.tko\cache\poo.md
-  cache_timestamp: '2025-10-25 16:52:14'
+  cache_timestamp: '2025-10-26 14:33:31'
   filters:
   - acesso
   - simples
@@ -17,10 +17,10 @@ expanded:
 - poo@bloco_b-modificadores-de-acesso
 - poo@bloco_b-agregação-simples
 tasks:
-  poo@chinela: '{iagen:gpt_para_corrigir, alone:10, study:90}'
+  poo@chinela: '{rate:70, iagen:gpt_para_corrigir, alone:10, study:90}'
   poo@camisa: '{rate:100, human:amigos_comparando_cidigo, alone:7, study:120}'
   poo@roupa: '{rate:100, human:amigos_comparando_codigo, alone:7, study:120}'
-  poo@relogio: '{rate:7}'
+  poo@relogio: '{rate:100, iagen:gpt_para_corrigir, alone:10}'
 flags:
   quests: 0
   tracks: 0
@@ -28,4 +28,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@relogio
+selected: poo@campanha-principal

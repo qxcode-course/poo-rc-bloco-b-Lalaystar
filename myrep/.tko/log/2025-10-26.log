@@ -1,0 +1,14 @@
+2025-10-26 14:34:05, MOVE, v:1, k:poo@relogio, mode:PICK
+2025-10-26 14:34:10, EXEC, v:1, k:poo@relogio, mode:FULL, rate:7
+2025-10-26 14:36:36, EXEC, v:1, k:poo@relogio, mode:FULL, rate:7, size:62
+2025-10-26 14:38:18, EXEC, v:1, k:poo@relogio, mode:FULL, rate:7, size:62
+2025-10-26 14:39:10, EXEC, v:1, k:poo@relogio, mode:FULL, rate:38, size:64
+2025-10-26 14:39:48, EXEC, v:1, k:poo@relogio, mode:FULL, rate:61, size:64
+2025-10-26 14:44:35, EXEC, v:1, k:poo@relogio, mode:FULL, rate:84, size:66
+2025-10-26 14:48:25, EXEC, v:1, k:poo@relogio, mode:FULL, rate:0, size:70
+2025-10-26 14:49:42, EXEC, v:1, k:poo@relogio, mode:FULL, rate:0, size:70
+2025-10-26 14:50:13, EXEC, v:1, k:poo@relogio, mode:FULL, rate:92, size:70
+2025-10-26 14:51:48, EXEC, v:1, k:poo@relogio, mode:FULL, rate:100, size:70
+2025-10-26 14:51:56, MOVE, v:1, k:poo@relogio, mode:BACK
+2025-10-26 14:52:47, SELF, v:1, k:poo@relogio, rate:100, iagen:gpt_para_corrigir, alone:10
+2025-10-26 14:54:18, SELF, v:1, k:poo@chinela, rate:70, iagen:gpt_para_corrigir, alone:10, study:90
