@@ -12,3 +12,22 @@
 2025-10-26 14:51:56, MOVE, v:1, k:poo@relogio, mode:BACK
 2025-10-26 14:52:47, SELF, v:1, k:poo@relogio, rate:100, iagen:gpt_para_corrigir, alone:10
 2025-10-26 14:54:18, SELF, v:1, k:poo@chinela, rate:70, iagen:gpt_para_corrigir, alone:10, study:90
+2025-10-26 14:56:11, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-26 14:59:16, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-26 14:59:56, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-26 15:10:39, MOVE, v:1, k:poo@motoca, mode:PICK
+2025-10-26 15:25:52, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:41
+2025-10-26 15:26:25, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:40
+2025-10-26 15:28:31, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:34
+2025-10-26 15:46:52, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:53
+2025-10-26 15:48:08, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:53
+2025-10-26 15:49:02, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:53
+2025-10-26 15:49:56, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:53
+2025-10-26 15:52:26, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:55
+2025-10-26 15:53:12, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:55
+2025-10-26 15:53:36, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:55
+2025-10-26 15:56:02, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:55
+2025-10-26 15:56:36, EXEC, v:1, k:poo@motoca, mode:FULL, rate:6, size:54
+2025-10-26 15:58:52, EXEC, v:1, k:poo@motoca, mode:FULL, rate:6, size:55
+2025-10-26 16:08:13, EXEC, v:1, k:poo@motoca, mode:FULL, rate:6, size:70
+2025-10-26 16:09:04, MOVE, v:1, k:poo@motoca, mode:BACK

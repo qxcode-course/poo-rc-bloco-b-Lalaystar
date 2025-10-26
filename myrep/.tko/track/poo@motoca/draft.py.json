@@ -1,0 +1,74 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-26_15-25-52",
+            "content": "@@ -384,14 +384,51 @@\n     \n+def setPot(self, pot:int):%0A        if \n %0A%0A   \n-#\n  def\n@@ -459,9 +459,8 @@\n     \n-#\n  ret\n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-10-26_15-26-25",
+            "content": "@@ -515,18 +515,16 @@\n oto=Moto\n-()\n %0A    whi\n@@ -706,14 +706,20 @@\n o)%0A    %0A\n+%0A%0A%0A%0A%0A%0A\n main()\n",
+            "lines": "40"
+        },
+        {
+            "label": "2025-10-26_15-28-31",
+            "content": "@@ -154,16 +154,15 @@\n .set\n-Pot(\n+pot=\n pot\n-)\n %0A   \n@@ -178,20 +178,19 @@\n .set\n-T\n+t\n empo\n-(\n+=\n tempo\n-)\n %0A   \n@@ -206,22 +206,21 @@\n .set\n-P\n+p\n essoa\n-(\n+=\n pessoa\n-)\n %0A%0A  \n@@ -384,457 +384,14 @@\n     \n-def setPot(self, pot:int):%0A        if pot%3E0:%0A            self.__pot=pot%0A        else:%0A            print(%22fail: potencia invalida%22)%0A        %0A    def setTempo(self, tempo:int):%0A        if tempo%3E=0:%0A                self.__tempo=tempo%0A        else:%0A                print(%22fail: tempo invalido%22)%0A%0A    def setPessoa(self, pessoa:int):%0A        if 0%3C=pessoa%3C=2:%0A            self.__pessoa=pessoa%0A        else:%0A            print(%22fail: pessoa invalida%22)%0A\n %0A%0A   \n+#\n  def\n@@ -410,32 +410,33 @@\n f)-%3Estr:%0A       \n+#\n  return f%22power:\n@@ -440,39 +440,36 @@\n er:%7B\n-self.__pot%7D, time:%7Bself.__tempo\n+this.power%7D, time:%7Bthis.time\n %7D, p\n@@ -475,29 +475,27 @@\n person:%7B\n-self.__pessoa\n+this.person\n %7D%22%0A%0Adef \n@@ -708,16 +708,14 @@\n o)%0A    %0A\n-%0A%0A\n main()\n",
+            "lines": "34"
+        },
+        {
+            "label": "2025-10-26_15-46-52",
+            "content": "@@ -729,15 +729,17 @@\n f 0%3C\n+=\n pessoa\n-%3E\n+%3C=\n 2:%0A \n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-10-26_15-48-08",
+            "content": "@@ -35,17 +35,17 @@\n pot:int=\n-1\n+0\n , tempo:\n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-10-26_15-49-02",
+            "content": "@@ -728,22 +728,16 @@\n if 0\n- %3C= \n+%3C\n pessoa\n- %3C= \n+%3E\n 2:%0A \n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-10-26_15-49-56",
+            "content": "@@ -716,52 +716,8 @@\n t):%0A\n-        if pessoa==0:%0A            (%22empty%22)%0A\n     \n",
+            "lines": "53"
+        },
+        {
+            "label": "2025-10-26_15-52-26",
+            "content": "@@ -750,29 +750,17 @@\n     \n-self.__pessoa=\n+(\n %22empty%22\n+)\n %0A   \n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-10-26_15-53-12",
+            "content": "@@ -764,17 +764,15 @@\n soa=\n-(\n %22empty%22\n-)\n %0A   \n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-10-26_15-53-36",
+            "content": "@@ -136,17 +136,9 @@\n soa=\n-%22(empty)%22\n+0\n %0A   \n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-10-26_15-56-02",
+            "content": "@@ -741,12 +741,10 @@\n ssoa\n- \n ==\n- \n 0:%0A \n@@ -771,20 +771,18 @@\n ssoa\n- = %22(\n+=(%22\n empty\n-)\n %22\n+)\n %0A   \n@@ -790,14 +790,12 @@\n     \n-el\n if \n-1\n+0\n  %3C= \n@@ -836,11 +836,9 @@\n ssoa\n- = \n+=\n pess\n@@ -882,34 +882,23 @@\n ail:\n- numero de\n  pessoa\n-s\n  invalid\n o%22)%0A\n@@ -885,37 +885,38 @@\n : pessoa invalid\n-o\n+a\n %22)%0A%0A\n+%0A\n     def __str__(\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-10-26_15-56-36",
+            "content": "@@ -1249,95 +1249,8 @@\n     \n-    if args%5B0%5D==%22init%22:%0A            moto=Moto(int(args%5B1%5D), int(args%5B2%5D), int(args%5B3%5D))\n %0A%0A%0Am\n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-10-26_15-58-52",
+            "content": "@@ -921,304 +921,8 @@\n %22)%0A%0A\n-    def entrar(self):%0A        if self.__pessoa!=%22(empty)%22:%0A            print(%22fail: moto ocupada%22)%0A        else:%0A            self.__pessoa=1%0A%0A    def sair(self):%0A        if self.__pessoa==%22(empty)%22:%0A            print(%22fail: moto vazia%22)%0A        else:%0A            self.__pessoa=%22(empty)%22%0A        %0A\n     \n@@ -1337,115 +1337,8 @@\n %5D))%0A\n-        if args%5B0%5D==%22enter%22:%0A            moto.entrar()%0A        if args%5B0%5D==%22leave%22:%0A            moto.sair()\n %0A%0Ama\n",
+            "lines": "55"
+        },
+        {
+            "label": "2025-10-26_16-08-13",
+            "content": "class Moto:\n    def __init__(self,pot:int=1, tempo:int=0, pessoa:int=0):\n        self.__pot=1\n        self.__tempo=0\n        self.__pessoa=\"(empty)\"\n        self.setPot(pot)\n        self.setTempo(tempo)\n        self.setPessoa(pessoa)\n\n    def getPot(self):\n        return self.__pot\n    def getTempo(self):\n        return self.__tempo\n    def getPessoa(self):\n        return self.__pessoa\n    \n    def setPot(self, pot:int):\n        if pot>0:\n            self.__pot=pot\n        else:\n            print(\"fail: potencia invalida\")\n        \n    def setTempo(self, tempo:int):\n        if tempo>=0:\n                self.__tempo=tempo\n        else:\n                print(\"fail: tempo invalido\")\n\n    def setPessoa(self, pessoa:int):\n        if pessoa == 0:\n            self.__pessoa = \"(empty)\"\n        elif 1 <= pessoa <= 2:\n            self.__pessoa = pessoa\n        else:\n            print(\"fail: numero de pessoas invalido\")\n\n    def entrar(self):\n        if self.__pessoa!=\"(empty)\":\n            print(\"fail: moto ocupada\")\n        else:\n            self.__pessoa=1\n\n    def sair(self):\n        if self.__pessoa==\"(empty)\":\n            print(\"fail: moto vazia\")\n        else:\n            self.__pessoa=\"(empty)\"\n        \n    def __str__(self)->str:\n        return f\"power:{self.__pot}, time:{self.__tempo}, person:{self.__pessoa}\"\n\ndef main():\n    moto=Moto()\n    while True:\n        line=input()\n        print(\"$\"+line)\n        args=line.split()\n\n        if args[0]==\"end\":\n            break\n        if args[0]==\"show\":\n            print(moto)\n        if args[0]==\"init\":\n            moto=Moto(int(args[1]), int(args[2]), int(args[3]))\n        if args[0]==\"enter\":\n            moto.entrar()\n        if args[0]==\"leave\":\n            moto.sair()\n\nmain()",
+            "lines": "70"
+        }
+    ]
+}
