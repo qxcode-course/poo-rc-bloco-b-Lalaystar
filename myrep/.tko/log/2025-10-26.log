@@ -31,3 +31,4 @@
 2025-10-26 15:58:52, EXEC, v:1, k:poo@motoca, mode:FULL, rate:6, size:55
 2025-10-26 16:08:13, EXEC, v:1, k:poo@motoca, mode:FULL, rate:6, size:70
 2025-10-26 16:09:04, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-26 18:47:39, MOVE, v:1, k:poo@motoca, mode:PICK

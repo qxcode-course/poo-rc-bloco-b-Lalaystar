@@ -8,7 +8,7 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: C:\Users\layan\OneDrive\Desktop\poo-rc-bloco-b-Lalaystar\myrep\.tko\cache\poo.md
-  cache_timestamp: '2025-10-26 14:33:31'
+  cache_timestamp: '2025-10-26 18:47:26'
   filters:
   - acesso
   - simples
@@ -21,6 +21,7 @@ tasks:
   poo@camisa: '{rate:100, human:amigos_comparando_cidigo, alone:7, study:120}'
   poo@roupa: '{rate:100, human:amigos_comparando_codigo, alone:7, study:120}'
   poo@relogio: '{rate:100, iagen:gpt_para_corrigir, alone:10}'
+  poo@motoca: '{rate:6}'
 flags:
   quests: 0
   tracks: 0
