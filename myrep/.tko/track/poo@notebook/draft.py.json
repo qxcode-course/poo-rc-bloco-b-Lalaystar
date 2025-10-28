@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2025-10-14_11-22-35",
-            "content": "",
+            "content": "@@ -1,1137 +0,0 @@\n-class Notebook:%0A    def __init__(self):%0A        self.__ligado: bool=False%0A        %0A    def ligar(self):%0A        if self.__ligado is False:%0A            self.__ligado=True%0A            print(%22Notebook ligado%22)%0A        else:%0A            print(%22Notebook ja esta ligado%22)%0A%0A    def desligar(self):%0A        if self.__ligado is True:%0A            self.__ligado=False%0A            print(%22Notebook desligado%22)%0A        else:%0A            print(%22Notebook ja esta desligado%22)%0A    %0A    def mostrar(self):%0A        status = %22ligado%22 if self.__ligado else %22desligado%22%0A        print(f%22O notebook est%C3%A1 %7Bstatus%7D.%22)%0A%0A    %0A    def getLigado(self):%0A        return self.__ligado%0A%0A    def __str__(self):%0A        status = %22ligado%22 if self.__ligado else %22desligado%22%0A        return f%22Notebook: %7Bstatus%7D%22%0A    %0A    %0Adef main():%0A    notebook=Notebook()%0A    while True:%0A        line=input()%0A        print(%22$%22+line)%0A        args=line.split()%0A%0A        if args%5B0%5D==%22end%22:%0A            break%0A        if args%5B0%5D==%22show%22:%0A            print(notebook)%0A        if args%5B0%5D==%22ligar%22:%0A            notebook.ligar()%0A        if args%5B0%5D==%22desligar%22:%0A            notebook.desligar()%0A%0A%0Amain()\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-10-28_11-20-45",
+            "content": "class Notebook:\n    def __init__(self):\n        self.__ligado: bool=False\n        \n    def ligar(self):\n        if self.__ligado is False:\n            self.__ligado=True\n            print(\"Notebook ligado\")\n        else:\n            print(\"Notebook ja esta ligado\")\n\n    def desligar(self):\n        if self.__ligado is True:\n            self.__ligado=False\n            print(\"Notebook desligado\")\n        else:\n            print(\"Notebook ja esta desligado\")\n    \n    def mostrar(self):\n        status = \"ligado\" if self.__ligado else \"desligado\"\n        print(f\"O notebook est\u00e1 {status}.\")\n\n    \n    def getLigado(self):\n        return self.__ligado\n\n    def __str__(self):\n        status = \"ligado\" if self.__ligado else \"desligado\"\n        return f\"Notebook: {status}\"\n    \n    \ndef main():\n    notebook=Notebook()\n    while True:\n        line=input()\n        print(\"$\"+line)\n        args=line.split()\n\n        if args[0]==\"end\":\n            break\n        if args[0]==\"show\":\n            print(notebook)\n        if args[0]==\"ligar\":\n            notebook.ligar()\n        if args[0]==\"desligar\":\n            notebook.desligar()\n\n\nmain()",
+            "lines": "49"
         }
     ]
 }

@@ -1,0 +1,114 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-28_10-17-45",
+            "content": "@@ -1,288 +0,0 @@\n-class Notebook:%0A    def __init__(self):%0A        self.__ligado: bool=False%0A        %0A%0A    %0A    %0A    %0Adef main():%0A    notebook=Notebook()%0A    while True:%0A        line=input()%0A        print(%22$%22+line)%0A        args=line.split()%0A%0A        if args%5B0%5D==%22show%22:%0A            print(notebook)%0A%0A%0A%0Amain()\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-10-28_10-49-20",
+            "content": "@@ -80,155 +80,13 @@\n    %0A\n+%0A\n     \n-def ligar(self):%0A        if self.__ligado is False:%0A            self.__ligado=True%0A        else:%0A%0A    def __str__(self)-%3Estr:%0A        print(%22%22)\n %0A   \n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-10-28_11-00-46",
+            "content": "@@ -182,17 +182,16 @@\n e:%0A%0A    \n-#\n def __st\n@@ -214,9 +214,8 @@\n     \n-#\n     \n",
+            "lines": "26"
+        },
+        {
+            "label": "2025-10-28_11-01-08",
+            "content": "@@ -175,295 +175,20 @@\n     \n-    print(%22Notebook ligado%22)%0A        else:%0A            print(%22Notebook ja esta ligado%22)%0A%0A    def desligar(self):%0A        if self.__ligado is True:%0A            self.__ligado=False%0A            print(%22Notebook desligado%22)%0A        else:%0A            print(%22Notebook ja esta desligado%22)%0A%0A%0A    \n+else:%0A%0A    #\n def \n@@ -207,24 +207,25 @@\n )-%3Estr:%0A    \n+#\n     print(%22%22\n@@ -420,129 +420,8 @@\n ok)%0A\n-        if args%5B0%5D==%22ligar%22:%0A            notebook.ligar()%0A        if args%5B0%5D==%22desligar%22:%0A            notebook.desligar()\n %0A%0A%0Am\n",
+            "lines": "26"
+        },
+        {
+            "label": "2025-10-28_11-08-53",
+            "content": "@@ -454,24 +454,65 @@\n ado%22)%0A%0A%0A    \n+def __str__(self)-%3Estr:%0A        print(%22%22)\n %0A    %0A    %0Ad\n",
+            "lines": "39"
+        },
+        {
+            "label": "2025-10-28_11-09-09",
+            "content": "@@ -456,320 +456,14 @@\n o%22)%0A\n+%0A%0A\n     \n-%0A    def mostrar(self):%0A        status = %22ligado%22 if self.__ligado else %22desligado%22%0A        print(f%22O notebook est%C3%A1 %7Bstatus%7D.%22)%0A%0A    %0A    def getLigado(self):%0A        return self.__ligado%0A%0A    def __str__(self):%0A        status = %22ligado%22 if self.__ligado else %22desligado%22%0A        return f%22Notebook: %7Bstatus%7D%22\n %0A   \n",
+            "lines": "38"
+        },
+        {
+            "label": "2025-10-28_11-16-32",
+            "content": "@@ -903,53 +903,8 @@\n ()%0A%0A\n-        if args%5B0%5D==%22end%22:%0A            break%0A\n     \n",
+            "lines": "47"
+        },
+        {
+            "label": "2025-10-28_11-21-57",
+            "content": "@@ -447,24 +447,156 @@\n  desligado%22)\n+%0A    %0A    def mostrar(self):%0A        status = %22ligado%22 if self.__ligado else %22desligado%22%0A        print(f%22O notebook est%C3%A1 %7Bstatus%7D.%22)\n %0A%0A    %0A    d\n",
+            "lines": "49"
+        },
+        {
+            "label": "2025-10-28_11-22-43",
+            "content": "@@ -893,15 +893,13 @@\n %5D==%22\n-turn_on\n+ligar\n %22:%0A \n",
+            "lines": "45"
+        },
+        {
+            "label": "2025-10-28_11-23-42",
+            "content": "@@ -237,36 +237,31 @@\n nt(%22\n-fail: n%C3%A3o foi poss%C3%ADvel\n+Notebook ja esta\n  liga\n-r\n+do\n %22)%0A%0A\n",
+            "lines": "45"
+        },
+        {
+            "label": "2025-10-28_11-25-20",
+            "content": "@@ -112,12 +112,8 @@\n  if \n-not \n self\n@@ -121,16 +121,25 @@\n __ligado\n+ is False\n :%0A      \n",
+            "lines": "45"
+        },
+        {
+            "label": "2025-10-28_11-26-23",
+            "content": "@@ -84,23 +84,21 @@\n     def \n-turn_on\n+ligar\n (self):%0A\n@@ -152,19 +152,17 @@\n __ligado\n- = \n+=\n True%0A   \n@@ -268,24 +268,24 @@\n     def \n-turn_off\n+desligar\n (self):%0A\n@@ -300,32 +300,40 @@\n if self.__ligado\n+ is True\n :%0A            se\n@@ -343,19 +343,17 @@\n __ligado\n- = \n+=\n False%0A  \n@@ -427,38 +427,32 @@\n nt(%22\n-fail: n%C3%A3o foi poss%C3%ADvel\n+Notebook ja esta\n  desliga\n %22)%0A%0A\n@@ -447,16 +447,18 @@\n  desliga\n+do\n %22)%0A%0A    \n@@ -920,23 +920,21 @@\n otebook.\n-turn_on\n+ligar\n ()%0A     \n@@ -985,16 +985,16 @@\n ook.\n-turn_off\n+desligar\n ()%0A%0A\n",
+            "lines": "45"
+        },
+        {
+            "label": "2025-10-28_11-27-31",
+            "content": "@@ -447,25 +447,24 @@\n %C3%ADvel desliga\n-r\n %22)%0A%0A    %0A   \n",
+            "lines": "45"
+        },
+        {
+            "label": "2025-10-28_11-30-16",
+            "content": "@@ -54,25 +54,37 @@\n __ligado\n- = False%0A\n+: bool=False%0A        \n %0A    def\n@@ -454,18 +454,76 @@\n sligar%22)\n-  \n+%0A%0A    %0A    def getLigado(self):%0A        return self.__ligado\n %0A%0A    de\n@@ -636,17 +636,23 @@\n tatus%7D%22%0A\n-%0A\n+    %0A  \n   %0Adef m\n",
+            "lines": "45"
+        },
+        {
+            "label": "2025-10-28_11-32-06",
+            "content": "@@ -59,24 +59,25 @@\n ado = False%0A\n+%0A\n     def turn\n@@ -450,214 +450,8 @@\n   %0A%0A\n-    def usar(self, tempo:int):%0A        if self.__ligado:%0A            print(f%22Usando o notebook por %7Btempo%7D minutos%22)%0A        else:%0A            print(%22fail: n%C3%A3o %C3%A9 poss%C3%ADvel usar. O notebook est%C3%A1 desligado%22)%0A%0A\n     \n@@ -461,32 +461,32 @@\n  __str__(self):%0A\n+\n         status =\n@@ -567,16 +567,18 @@\n atus%7D%22%0A%0A\n+  \n %0Adef mai\n",
+            "lines": "41"
+        },
+        {
+            "label": "2025-10-28_11-37-03",
+            "content": "@@ -63,17 +63,16 @@\n = False%0A\n-%0A\n     def \n@@ -136,36 +136,35 @@\n self.__ligado = \n-Fals\n+Tru\n e%0A            pr\n@@ -172,36 +172,23 @@\n nt(%22\n-fail: n%C3%A3o foi poss%C3%ADvel\n+Notebook\n  liga\n-r\n+do\n %22)%0A \n@@ -219,31 +219,44 @@\n  print(%22\n-Notebook\n+fail: n%C3%A3o foi poss%C3%ADvel\n  liga\n-do\n+r\n %22)%0A%0A    \n",
+            "lines": "46"
+        },
+        {
+            "label": "2025-10-28_11-39-40",
+            "content": "@@ -602,16 +602,53 @@\n t(%22fail:\n+ n%C3%A3o %C3%A9 poss%C3%ADvel usar. O notebook est%C3%A1\n  desliga\n",
+            "lines": "47"
+        },
+        {
+            "label": "2025-10-28_11-41-12",
+            "content": "@@ -1093,101 +1093,8 @@\n f()%0A\n-        if args%5B0%5D==%22use%22:%0A            tempo = int(args%5B1%5D)%0A            notebook.usar(tempo)%0A\n %0A%0Ama\n",
+            "lines": "47"
+        },
+        {
+            "label": "2025-10-28_11-43-24",
+            "content": "@@ -1,170 +1,4 @@\n-class Bateria:%0A%0A%0Aclass Carregador:%0A    def __init__(self, pot:int):%0A        self.potencia = pot%0A%0A    def __str__(self):%0A        return f%22Pot%C3%AAncia: %7Bself.potencia%7D%22%0A%0A%0A\n clas\n@@ -738,17 +738,16 @@\n tus%7D%22%0A%0A%0A\n-%0A\n def main\n@@ -1183,14 +1183,15 @@\n tempo)%0A%0A\n+%0A\n main()\n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-10-28_11-46-28",
+            "content": "@@ -1,16 +1,30 @@\n+class Bateria:\n %0A%0A%0Aclass Carrega\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-10-28_11-46-40",
+            "content": "@@ -1,230 +1,5 @@\n-class Bateria:%0A    def __init__(self,carg:int,pot:int):%0A        self.__carg=carg%0A        self.__pot=pot%0A%0A    def gastar(self,tempo:int):%0A        gasto = min(self.__carg, tempo)%0A        self.__carg-= gasto%0A        return gasto \n+%0A\n %0A%0Acl\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-10-28_11-51-26",
+            "content": "class Bateria:\n    def __init__(self,carg:int,pot:int):\n        self.__carg=carg\n        self.__pot=pot\n\n    def gastar(self,tempo:int):\n        gasto = min(self.__carg, tempo)\n        self.__carg-= gasto\n        return gasto \n\nclass Carregador:\n    def __init__(self, pot:int):\n        self.potencia = pot\n\n    def __str__(self):\n        return f\"Pot\u00eancia: {self.potencia}\"\n\n\nclass Notebook:\n    def __init__(self):\n        self.__ligado = False\n\n    def turn_on(self):\n        if not self.__ligado:\n            self.__ligado = False\n            print(\"fail: n\u00e3o foi poss\u00edvel ligar\")\n        else:\n            print(\"Notebook ligado\")\n\n    def turn_off(self):\n        if self.__ligado:\n            self.__ligado = False\n            print(\"Notebook desligado\")\n        else:\n            print(\"fail: n\u00e3o foi poss\u00edvel desligar\")  \n\n    def usar(self, tempo:int):\n        if self.__ligado:\n            print(f\"Usando o notebook por {tempo} minutos\")\n        else:\n            print(\"fail: desligado\")\n\n    def __str__(self):\n        status = \"ligado\" if self.__ligado else \"desligado\"\n        return f\"Notebook: {status}\"\n\n\n\ndef main():\n    notebook=Notebook()\n    while True:\n        line=input()\n        print(\"$\"+line)\n        args=line.split()\n\n        if args[0]==\"end\":\n            break\n        if args[0]==\"show\":\n            print(notebook)\n        if args[0]==\"turn_on\":\n            notebook.turn_on()\n        if args[0]==\"desligar\":\n            notebook.turn_off()\n        if args[0]==\"use\":\n            tempo = int(args[1])\n            notebook.usar(tempo)\n\nmain()",
+            "lines": "68"
+        }
+    ]
+}

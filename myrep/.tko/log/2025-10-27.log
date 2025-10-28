@@ -26,3 +26,5 @@
 2025-10-27 16:52:17, EXEC, v:1, k:poo@motoca, mode:FULL, rate:0, size:91
 2025-10-27 16:52:31, EXEC, v:1, k:poo@motoca, mode:FULL, rate:100, size:91
 2025-10-27 16:52:40, MOVE, v:1, k:poo@motoca, mode:BACK
+2025-10-27 16:55:22, SELF, v:1, k:poo@motoca, rate:100, iagen:gpt_para_corrigir_e_me_explicar_umas_coisa_tbm, alone:10, study:250
+2025-10-27 16:56:58, MOVE, v:1, k:poo@motouber, mode:PICK
